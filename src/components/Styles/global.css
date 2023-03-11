@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 
-@media screen and (max-width: 1440px) {
-
     body {
         margin: 0;
         padding: 0;
@@ -103,7 +101,7 @@
         color: hsl(25, 97%, 53%);
     }
 
-}
+
 
 @media screen and (max-width: 375px) {
 
