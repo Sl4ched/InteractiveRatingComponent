@@ -1,1 +1,1 @@
-#Interactive Ratin Component
+#Interactive Rating Component
