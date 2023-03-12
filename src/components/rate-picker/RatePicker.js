@@ -68,19 +68,19 @@ const RatePicker = () => {
 
         switch (e.target.id) {
             case "1":
-                if (selectedValue !== 1) setBackgroundColor1("hsl(25, 97%, 53%)")
+                setBackgroundColor1("hsl(25, 97%, 53%)")
                 break
             case "2":
-                if (selectedValue !== 2) setBackgroundColor2("hsl(25, 97%, 53%)")
+                setBackgroundColor2("hsl(25, 97%, 53%)")
                 break
             case "3":
-                if (selectedValue !== 3) setBackgroundColor3("hsl(25, 97%, 53%)")
+                setBackgroundColor3("hsl(25, 97%, 53%)")
                 break
             case "4":
-                if (selectedValue !== 4) setBackgroundColor4("hsl(25, 97%, 53%)")
+               setBackgroundColor4("hsl(25, 97%, 53%)")
                 break
             case "5":
-                if (selectedValue !== 5) setBackgroundColor5("hsl(25, 97%, 53%)")
+                setBackgroundColor5("hsl(25, 97%, 53%)")
                 break
         }
     }
@@ -89,19 +89,24 @@ const RatePicker = () => {
 
         switch (e.target.id) {
             case "1":
-                if (selectedValue !== 1) setBackgroundColor1("hsl(210, 19%, 18%)")
+                if (selectedValue === 1) setBackgroundColor1("hsl(216, 12%, 54%)")
+                else setBackgroundColor1("hsl(210, 19%, 18%)")
                 break
             case "2":
-                if (selectedValue !== 2) setBackgroundColor2("hsl(210, 19%, 18%)")
+                if (selectedValue === 2) setBackgroundColor2("hsl(216, 12%, 54%)")
+                else setBackgroundColor2("hsl(210, 19%, 18%)")
                 break
             case "3":
-                if (selectedValue !== 3) setBackgroundColor3("hsl(210, 19%, 18%)")
+                if (selectedValue === 3) setBackgroundColor3("hsl(216, 12%, 54%)")
+                else setBackgroundColor3("hsl(210, 19%, 18%)")
                 break
             case "4":
-                if (selectedValue !== 4) setBackgroundColor4("hsl(210, 19%, 18%)")
+                if (selectedValue === 4) setBackgroundColor4("hsl(216, 12%, 54%)")
+                else setBackgroundColor4("hsl(210, 19%, 18%)")
                 break
             case "5":
-                if (selectedValue !== 5) setBackgroundColor5("hsl(210, 19%, 18%)")
+                if (selectedValue === 5) setBackgroundColor5("hsl(216, 12%, 54%)")
+                else setBackgroundColor5("hsl(210, 19%, 18%)")
                 break
         }
     }
@@ -125,19 +130,19 @@ const RatePicker = () => {
                 <div className={"text"}>{textDiv}</div>
                 <div className={"flexContainer2"}>
                     <button onMouseOver={hvIn} onMouseLeave={hvOut} style={style1} id={"1"} onClick={trigger}
-                         className={"circle bt"}>1
+                         className={"circle bt extraFont"}>1
                     </button>
                     <button onMouseOver={hvIn} onMouseLeave={hvOut} style={style2} id={"2"} onClick={trigger}
-                         className={"circle bt"}>2
+                         className={"circle bt extraFont"}>2
                     </button>
                     <button onMouseOver={hvIn} onMouseLeave={hvOut} style={style3} id={"3"} onClick={trigger}
-                         className={"circle bt"}>3
+                         className={"circle bt extraFont"}>3
                     </button>
                     <button onMouseOver={hvIn} onMouseLeave={hvOut} style={style4} id={"4"} onClick={trigger}
-                         className={"circle bt"}>4
+                         className={"circle bt extraFont"}>4
                     </button>
                     <button onMouseOver={hvIn} onMouseLeave={hvOut} style={style5} id={"5"} onClick={trigger}
-                         className={"circle bt"}>5
+                         className={"circle bt extraFont"}>5
                     </button>
                 </div>
                 <button onClick={isClicked} className={"font button"}>SUBMIT</button>
