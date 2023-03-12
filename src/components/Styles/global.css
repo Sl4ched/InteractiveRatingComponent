@@ -1,210 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 
-    body {
-        margin: 0;
-        padding: 0;
-        background-color: hsl(216, 12%, 8%);
-        display: flex;
-        height: 100vh;
-        justify-content: center;
-        align-items: center;
-    }
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
 
-    .flexContainer {
-        display: flex;
-        flex-flow: column;
-        background: hsl(215, 22%, 15%);
-        border-radius: 15px;
-        padding: 30px;
-        width: 340px;
-    }
+.flexContainer {
+    display: flex;
+    flex-flow: column;
+    background: hsl(215, 22%, 15%);
+    border-radius: 15px;
+    padding: 30px;
+    width: 340px;
+}
 
-    .flexContainer2 {
-        display: flex;
-        flex-flow: row;
-        justify-content: space-around;
-        margin: 0 0 30px 0;
-    }
-
-
-    .circle {
-        display: flex;
-        width: 40px;
-        height: 40px;
-        border-radius: 100%;
-        background-color: hsl(210, 19%, 18%);
-        justify-content: center;
-        align-items: center;
-    }
-
-    .font {
-        font-size: 15px;
-        font-family: 'Overpass', sans-serif;
-        line-height: 20px;
-        color: hsl(217, 12%, 63%);
-    }
-
-    h1 {
-        color: white;
-        margin: 0 0 20px 0;
-    }
-
-    .star {
-        height: 60px;
-        width: 60px;
-        position: relative;
-        top: 20px;
-        left: 20px;
-    }
-
-    .first {
-        margin: 0 0 25px 0;
-    }
-
-    .text {
-        margin: 0 0 30px 0;
-    }
-
-    .text2 {
-        margin: 0 0 30px 0;
-        text-align: center;
-    }
-
-    .section {
-        color: hsl(25, 97%, 53%);
-        background-color: hsl(210, 19%, 18%);
-        padding: 7px 15px;
-        text-align: center;
-        max-width: 200px;
-        border-radius: 15px;
-    }
-
-    .completeImg {
-        height: 100px;
-        width: 150px;
-    }
-
-    .header {
-        text-align: center;
-    }
-
-    .button {
-        background-color: hsl(25, 97%, 53%);
-        border-radius: 30px;
-        border: none;
-        height: 45px;
-        color: white;
-    }
-
-    button:hover {
-        background-color: white;
-        color: hsl(25, 97%, 53%);
-    }
+.flexContainer2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin: 0 0 30px 0;
+}
 
 
+.circle {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: hsl(210, 19%, 18%);
+    justify-content: center;
+    align-items: center;
+}
 
-@media screen and (max-width: 375px) {
+.font {
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    line-height: 20px;
+    color: hsl(217, 12%, 63%);
+}
 
+h1 {
+    color: white;
+    margin: 0 0 20px 0;
+}
 
-    body {
-        margin: 0;
-        padding: 0;
-        background-color: hsl(216, 12%, 8%);
-        display: flex;
-        height: 100vh;
-        justify-content: center;
-        align-items: center;
-    }
+.star {
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
 
-    .flexContainer {
-        display: flex;
-        flex-flow: column;
-        background: hsl(215, 22%, 15%);
-        border-radius: 15px;
-        padding: 30px;
-        width: 340px;
-    }
+.first {
+    margin: 0 0 25px 0;
+}
 
-    .flexContainer2 {
-        display: flex;
-        flex-flow: row;
-        justify-content: space-around;
-        margin: 0 0 30px 0;
-    }
+.text {
+    margin: 0 0 30px 0;
+}
 
+.text2 {
+    margin: 0 0 30px 0;
+    text-align: center;
+}
 
-    .circle {
-        display: flex;
-        width: 40px;
-        height: 40px;
-        border-radius: 100%;
-        background-color: hsl(210, 19%, 18%);
-        justify-content: center;
-        align-items: center;
-    }
+.section {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(210, 19%, 18%);
+    padding: 7px 15px;
+    text-align: center;
+    max-width: 200px;
+    border-radius: 15px;
+}
 
-    .font {
-        font-size: 15px;
-        font-family: 'Overpass', sans-serif;
-        line-height: 20px;
-        color: hsl(217, 12%, 63%);
-    }
+.completeImg {
+    height: 100px;
+    width: 150px;
+}
 
-    h1 {
-        color: white;
-        margin: 0 0 20px 0;
-    }
+.header {
+    text-align: center;
+}
 
-    .star {
-        height: 60px;
-        width: 60px;
-        position: relative;
-        top: 20px;
-        left: 20px;
-    }
+.bt {
+    border: none;
+    color: hsl(217, 12%, 63%);
+}
 
-    .first {
-        margin: 0 0 25px 0;
-    }
+.button {
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    border: none;
+    height: 45px;
+    color: white;
+}
 
-    .text {
-        margin: 0 0 30px 0;
-    }
-
-    .text2 {
-        margin: 0 0 30px 0;
-        text-align: center;
-    }
-
-    .section {
-        color: hsl(25, 97%, 53%);
-        background-color: hsl(210, 19%, 18%);
-        padding: 7px 15px;
-        text-align: center;
-        max-width: 200px;
-        border-radius: 15px;
-    }
-
-    .completeImg {
-        height: 100px;
-        width: 150px;
-    }
-
-    .header {
-        text-align: center;
-    }
-
-    .button {
-        background-color: hsl(25, 97%, 53%);
-        border-radius: 30px;
-        border: none;
-        height: 45px;
-        color: white;
-    }
-
-    button:hover {
-        background-color: white;
-        color: hsl(25, 97%, 53%);
-    }
-
+.button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
 }

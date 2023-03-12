@@ -124,21 +124,21 @@ const RatePicker = () => {
                 <h1>{textH1}</h1>
                 <div className={"text"}>{textDiv}</div>
                 <div className={"flexContainer2"}>
-                    <div onMouseOver={hvIn} onMouseLeave={hvOut} style={style1} id={"1"} onClick={trigger}
-                         className={"circle hv"}>1
-                    </div>
-                    <div onMouseOver={hvIn} onMouseLeave={hvOut} style={style2} id={"2"} onClick={trigger}
-                         className={"circle hv"}>2
-                    </div>
-                    <div onMouseOver={hvIn} onMouseLeave={hvOut} style={style3} id={"3"} onClick={trigger}
-                         className={"circle hv"}>3
-                    </div>
-                    <div onMouseOver={hvIn} onMouseLeave={hvOut} style={style4} id={"4"} onClick={trigger}
-                         className={"circle hv"}>4
-                    </div>
-                    <div onMouseOver={hvIn} onMouseLeave={hvOut} style={style5} id={"5"} onClick={trigger}
-                         className={"circle hv"}>5
-                    </div>
+                    <button onMouseOver={hvIn} onMouseLeave={hvOut} style={style1} id={"1"} onClick={trigger}
+                         className={"circle bt"}>1
+                    </button>
+                    <button onMouseOver={hvIn} onMouseLeave={hvOut} style={style2} id={"2"} onClick={trigger}
+                         className={"circle bt"}>2
+                    </button>
+                    <button onMouseOver={hvIn} onMouseLeave={hvOut} style={style3} id={"3"} onClick={trigger}
+                         className={"circle bt"}>3
+                    </button>
+                    <button onMouseOver={hvIn} onMouseLeave={hvOut} style={style4} id={"4"} onClick={trigger}
+                         className={"circle bt"}>4
+                    </button>
+                    <button onMouseOver={hvIn} onMouseLeave={hvOut} style={style5} id={"5"} onClick={trigger}
+                         className={"circle bt"}>5
+                    </button>
                 </div>
                 <button onClick={isClicked} className={"font button"}>SUBMIT</button>
             </div>}
