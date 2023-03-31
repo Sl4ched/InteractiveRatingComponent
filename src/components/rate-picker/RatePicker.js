@@ -22,7 +22,7 @@ const RatePicker = () => {
         switch (e.target.id) {
             case "1":
                 setSelectedValue(1)
-                setBackgroundColor1("hsl(216, 12%, 54%)")
+                if(selectedValue !== 1) setBackgroundColor1("hsl(216, 12%, 54%)")
                 setBackgroundColor2("hsl(210, 19%, 18%)")
                 setBackgroundColor3("hsl(210, 19%, 18%)")
                 setBackgroundColor4("hsl(210, 19%, 18%)")
@@ -31,7 +31,7 @@ const RatePicker = () => {
             case "2":
                 setSelectedValue(2)
                 setBackgroundColor1("hsl(210, 19%, 18%)")
-                setBackgroundColor2("hsl(216, 12%, 54%)")
+                if(selectedValue !== 2) setBackgroundColor2("hsl(216, 12%, 54%)")
                 setBackgroundColor3("hsl(210, 19%, 18%)")
                 setBackgroundColor4("hsl(210, 19%, 18%)")
                 setBackgroundColor5("hsl(210, 19%, 18%)")
@@ -40,7 +40,7 @@ const RatePicker = () => {
                 setSelectedValue(3)
                 setBackgroundColor1("hsl(210, 19%, 18%)")
                 setBackgroundColor2("hsl(210, 19%, 18%)")
-                setBackgroundColor3("hsl(216, 12%, 54%)")
+                if(selectedValue !== 3) setBackgroundColor3("hsl(216, 12%, 54%)")
                 setBackgroundColor4("hsl(210, 19%, 18%)")
                 setBackgroundColor5("hsl(210, 19%, 18%)")
                 break
@@ -49,7 +49,7 @@ const RatePicker = () => {
                 setBackgroundColor1("hsl(210, 19%, 18%)")
                 setBackgroundColor2("hsl(210, 19%, 18%)")
                 setBackgroundColor3("hsl(210, 19%, 18%)")
-                setBackgroundColor4("hsl(216, 12%, 54%)")
+                if(selectedValue !== 4) setBackgroundColor4("hsl(216, 12%, 54%)")
                 setBackgroundColor5("hsl(210, 19%, 18%)")
                 break
             case "5":
@@ -58,7 +58,7 @@ const RatePicker = () => {
                 setBackgroundColor2("hsl(210, 19%, 18%)")
                 setBackgroundColor3("hsl(210, 19%, 18%)")
                 setBackgroundColor4("hsl(210, 19%, 18%)")
-                setBackgroundColor5("hsl(216, 12%, 54%)")
+                if(selectedValue !== 5) setBackgroundColor5("hsl(216, 12%, 54%)")
                 break
         }
 
